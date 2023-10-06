@@ -11,7 +11,6 @@ Library    RPA.PDF
 Library    RPA.FileSystem
 Library    RPA.Archive
 
-*** Variables ***
 *** Tasks ***
 Order robot from RobotSpareBin Industries Inc
 	${orders}	Download orders

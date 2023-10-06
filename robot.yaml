@@ -1,0 +1,4 @@
+tasks:
+  Order robot from RobotSpareBin Industries Inc:
+    shell: python -m robot --report NONE --outputdir output --logtitle "Task log" tasks.robot
+artifactsDir: output
