@@ -34,8 +34,7 @@ Download orders
 	RETURN	${orders}
 
 Open the order page
-	Open Browser	https://robotsparebinindustries.com/#/robot-order	headlesschrome
-	Set Window Size    1920    1080
+	Open Available Browser	https://robotsparebinindustries.com/#/robot-order
 
 Run the order
 	[Arguments]	${order}
